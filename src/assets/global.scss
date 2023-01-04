@@ -1,0 +1,39 @@
+$font-family: 'DM Sans';
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.v-navigation-drawer__scrim {
+  opacity: .6;
+}
+
+.v-application {
+  background: #f8f8f8;
+
+  [class*='text-'] {
+    color: #36405a;
+    font-family: $font-family, sans-serif !important;
+  }
+
+  font-family: $font-family, sans-serif !important;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, .2) !important;
+
+  &-bottom {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+  }
+
+  &-top {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

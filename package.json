@@ -1,0 +1,29 @@
+{
+  "name": "meter-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "@tanstack/vue-query": "^4.20.5",
+    "@vee-validate/zod": "^4.7.3",
+    "axios": "^1.2.1",
+    "pinia": "^2.0.28",
+    "sass": "^1.56.2",
+    "swiper": "^8.4.5",
+    "vee-validate": "^4.7.3",
+    "vite-plugin-vuetify": "^1.0.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.0.5",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
